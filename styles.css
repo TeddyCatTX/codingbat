@@ -1,0 +1,25 @@
+body {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
+
+pre code {
+  background-color: #eee;
+  border: 1px solid rgb(16, 16, 16);
+  display: block;
+  padding: 20px;
+}
