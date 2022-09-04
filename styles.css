@@ -23,3 +23,17 @@ pre code {
   display: block;
   padding: 20px;
 }
+
+grid-container {
+  background-color: rgb(223, 130, 130);
+  border: 1px solid rgb(16, 16, 16);
+  display: block;
+  padding: 20px;
+}
+
+grid-item grid-item-1 {
+  background-color: rgb(114, 200, 117);
+  border: 1px solid rgb(16, 16, 16);
+  display: block;
+  padding: 20px;
+}
