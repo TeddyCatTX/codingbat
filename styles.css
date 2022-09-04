@@ -1,39 +1,26 @@
-body {
-  margin: 25px;
-  background-color: rgb(240,240,240);
-  font-family: arial, sans-serif;
-  font-size: 14px;
+body{
+    padding: 10px 50px 10px 50px;
 }
-
-h2 {
-  font-size: 20px;
-  font-weight: normal;
-  margin-top: 5px;
+.container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'left left left right right right'
+      'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    background-color: #2196F3;
+    background-color: #3e2723;
+    padding: 10px;
+    border-radius: 10px;
 }
-
-/* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
-
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
-
-pre code {
-  background-color: #eee;
-  border: 1px solid rgb(16, 16, 16);
-  display: block;
-  padding: 20px;
+.container > div {
+    background-color: #dee0eb;
+    border: 1px solid #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
 }
-
-grid-container {
-  background-color: rgb(223, 130, 130);
-  border: 1px solid rgb(16, 16, 16);
-  display: block;
-  padding: 20px;
-}
-
-grid-item grid-item-1 {
-  background-color: rgb(114, 200, 117);
-  border: 1px solid rgb(16, 16, 16);
-  display: block;
-  padding: 20px;
-}
+.item1 { grid-area: header; }
+.item2 { grid-area: left; }
+.item3 { grid-area: right; }
+.item4 { grid-area: footer; }
