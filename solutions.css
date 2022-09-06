@@ -50,7 +50,20 @@ body {
 }
 
 pre code {
-  width:100%;
+  width:90%;
+  display:block;
+  line-height:1.3;
+  padding:0px;
+  border-radius:20px;
+  border:1px solid burlywood;
+  transition:box-shadow 0.5s ease;
+  box-shadow:0 4px 6px rgba(0,0,0,0.2);
+  background-color: rgb(232, 224, 214);
+  /*https://stackoverflow.com/questions/17772260/textarea-auto-height*/
+}
+
+textarea {
+  width:90%;
   display:block;
   line-height:1.3;
   padding:0px;
