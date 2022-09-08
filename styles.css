@@ -6,7 +6,6 @@
 html { background-color: rgb(21, 41, 21); } 
 
 body {
-  min-height: 100vh;
   max-width: 600px;
   margin: 0 auto;
   background-color: #333;
@@ -24,24 +23,26 @@ body {
   padding: 1px 20px 20px 20px;
 }
 
+/* with 8 .item(s) in it */
+.container { 
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(72, 47, 16);
+  padding: 5px;
+  border-radius: 5px; 
+}
+
+/* total 8 .item(s) */
+.item {
+  background-color: rgb(207, 194, 178);
+  border: 1px solid rgb(240, 236, 233);
+  padding: 0px 0px 10px 10px;
+  font-size: 15px;
+}
+
 /* Style the footer */
 .footer {
   background-color: rgb(109, 108, 108);
-}
-
-.container {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #1912ee;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.item {
-  background-color: #80cbc4;
-  border: 1px solid #fff;
-  padding: 0px 0px 10px 10px;
-  font-size: 15px;
 }
 
 iframe[seamless]{
