@@ -8,7 +8,6 @@ html { background-color: rgb(21, 41, 21); }
 body {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #333;
 }
 
 /* Style the top navigation bar */
@@ -27,15 +26,15 @@ body {
 .container { 
   display: grid;
   grid-template-columns: auto auto;
-  background-color: rgb(72, 47, 16);
-  padding: 5px;
   border-radius: 5px; 
+  gap: 10px;
 }
 
 /* total 8 .item(s) */
 .item {
   background-color: rgb(207, 194, 178);
-  border: 1px solid rgb(240, 236, 233);
+  border: 3px solid rgb(77, 45, 5);
+  border-radius: 10px;
   padding: 0px 0px 10px 10px;
   font-size: 15px;
 }
@@ -47,7 +46,7 @@ body {
 
 iframe[seamless]{
   background-color: transparent;
-  border: 0px none transparent;
+  border: 0px none transparent;  
   overflow: hidden;
   height: 50px;
   width: 100%;
