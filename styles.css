@@ -25,7 +25,7 @@ body {
 /* with 8 .item(s) in it */
 .container { 
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   border-radius: 5px; 
   gap: 10px;
 }
